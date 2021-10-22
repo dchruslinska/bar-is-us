@@ -1,0 +1,29 @@
+<header>
+  <mat-sidenav-container hasBackdrop="true" class="container">
+    <mat-sidenav #sidenav mode="over">
+      <mat-nav-list>
+        <mat-list-item [routerLink]="module.link" *ngFor="let module of modules" (click)="sidenav.close()">
+          <mat-icon>{{module.icon}}</mat-icon>
+          &nbsp;
+          <span>{{module.name}}</span>
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <mat-toolbar color="primary" class="toolbar">
+        <button mat-icon-button aria-label="Menu button">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <a routerLink="/">Bar Is Us</a>
+        <div class="spacer"></div>
+        <button mat-icon-button aria-label="User" class="toolbar__button" (click)="openDialog()">
+          <mat-icon>account_circle</mat-icon>
+        </button>
+      </mat-toolbar>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</header>
+
+

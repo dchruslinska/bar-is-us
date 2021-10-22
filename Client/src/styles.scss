@@ -1,0 +1,19 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #3f51b5;
+  font-weight: 500;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+//mat-dialog-container {
+//  background: transparent !important;
+//  backdrop-filter: blur(10px) !important;
+//  color: white !important;
+//}
+

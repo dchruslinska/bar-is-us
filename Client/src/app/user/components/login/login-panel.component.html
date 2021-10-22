@@ -1,0 +1,34 @@
+<h2 mat-dialog-title>Sign in</h2>
+<div class="wrapper">
+  <mat-icon color="primary">account_circle</mat-icon>
+  <mat-dialog-content>
+    <form (ngSubmit)="onSubmit()" [formGroup]="form">
+      <mat-form-field appearance="outline">
+        <mat-label>Nickname</mat-label>
+        <input matInput placeholder="Nickname" formControlName="nickname">
+        <mat-error *ngIf="form.controls.nickname.invalid">Nickname cannot be empty!</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="Password" formControlName="password">
+        <mat-error *ngIf="form.controls.password.invalid">Password cannot be empty!</mat-error>
+
+      </mat-form-field>
+    </form>
+    <div class="sign-up">
+      <span class="sign-up__element">Doesn't have an account yet?</span>
+      <a (click)="onSignUp()" class="sign-up__element">Sign up</a>
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions class="action">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button [disabled]="!form.valid" aria-label="Submit button" color="primary" mat-button
+            [mat-dialog-close]="true"
+            (click)="onSubmit()"
+            type="submit">
+      Go!
+    </button>
+  </mat-dialog-actions>
+</div>
+
+

@@ -1,0 +1,34 @@
+.wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  form {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+  .action {
+    align-self: flex-end;
+  }
+
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__element {
+      margin: 5px;
+    }
+  }
+
+  mat-icon {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    font-size: 5rem;
+    //color: #424242;
+  }
+}
+.spacer {
+  flex: 1 1 auto;
+}
+

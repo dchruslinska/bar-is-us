@@ -1,0 +1,14 @@
+<h1 mat-dialog-title> {{data.name}}</h1>
+<div mat-dialog-content>
+  <img [src]="data.img" alt="Alt" style="max-width: 300px" />
+  <h3>Ingredients: </h3>
+  <ul>
+    <li *ngFor="let ing of ingredients">
+      {{ing}}
+    </li>
+  </ul>
+  <mat-divider></mat-divider>
+  <br>
+  <h3> Recipe: </h3>
+  <p> {{data.extendedDescription}} </p>
+</div>

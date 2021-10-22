@@ -1,0 +1,18 @@
+.container {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.toolbar {
+  display: flex;
+  background-color: transparent;
+  position: absolute;
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "drinks": [
+    {
+      "id": "1",
+      "name": "Cuba Libre",
+      "description": "Best drink ever",
+      "img": "/../assets/images/Drink-1.png",
+      "ingredients":
+        "40 ml of Rum, 15 ml of lime, juice, cola",
+      "price": 10,
+      "extended_description": "To create this legendary cocktail, fill a glass with lots of ice, squeeze and drop 2 lime wedges into the glass, coating the ice well with the juices, Pour in the Bacardi Oro, top up with chilled cola and stir gently"
+    },
+    {
+      "id":"2" ,
+      "name":"Sex On The Beach",
+      "description":"Casual but kinda sweet drink based on vodka" ,
+      "img":"/../assets/images/Drink-2.jpeg" ,
+      "ingredients":
+        "40 ml of vodka, 20 ml of archers, 50 ml of orange juice, 50 ml of cranberry juice",
+      "price": 14,
+      "extended_description": "Fill tall glass with ice cubes. Pour the vodka, peach schnapps and fruit juices into a large jug and stir, garnish with the cocktail cherries and orange slices."
+    },
+    {
+      "id":"3" ,
+      "name":"Cosmopolitan" ,
+      "description":"Custom sweet and sour drink based on vodka" ,
+      "img":"/../assets/images/Drink-3.png" ,
+      "ingredients":
+        "40 ml of lemon vodka, 20 ml of cointreau, 15 ml of lime juice, 30 ml of cranberry juice"
+
+       ,
+      "price": 14,
+      "extended_description":"Shake ingredients in a cocktail shaker with ice and strain into a cocktail glass, get an orange zest for garnish"
+
+    },
+    {
+      "id":"4" ,
+      "name":"Blood Marry" ,
+      "description":"Custom drink, perfect after a good party" ,
+      "img":"/../assets/images/Drink-4.jpg" ,
+      "ingredients":
+        "40 ml of vodka, 100 ml of tomato juice, 15 ml of sour, Dash of Worchestershire, Tabasco and salt"
+       ,
+      "price": 12,
+      "extended_description":"Place the ice in a large jug. Measure the vodka, tomato juice and lemon juice and pour it straight onto the ice, Add worchestoire and tabasco, sti until the outside of the jug feels cold then strain the cocktail into glass. Top up with fresh ice and garnish with lemon slice."
+
+    },
+    {
+      "id":"5" ,
+      "name":"Margarita" ,
+      "description":"Classical drink based on tequila with interessing story, really dry" ,
+      "img":"/../assets/images/Drink-5.jpg" ,
+      "ingredients":
+        "40 ml of tequila, 20 ml of Cointreau, 20 ml of lime juice"
+       ,
+      "price": 12,
+      "extended_description":"Prepare the glass, combine all ingredients in shaker shake for something like 20-30 seconds until chilled, taste and get a garnish with salt/sweet crusta"
+
+    },
+    {
+      "id":"6" ,
+      "name": "Tequila Sunrise" ,
+      "description":"Next drink based on tequila, this one is kinda sweet thanks to grenadina" ,
+      "img":"/../assets/images/Drink-6.webp" ,
+      "ingredients":
+        "40 ml of tequila, A little bit of grenadina at the down of glass, Orange juice to the end of the glass"
+       ,
+      "price": 10,
+      "extended_description":"Fill glass with ice cubes, pour the tequilla and orange juice, stir a bit and pour the grenadina at the top of the cocktai that will sink."
+
+    },
+    {
+      "id":"7" ,
+      "name":"Manhattan" ,
+      "description":"Type of dry drink based on good bourbon with red vermouth" ,
+      "img":"/../assets/images/Drink-7.png" ,
+      "ingredients":
+        "40 ml of good bourbon, 20 ml of good red vermouth, 2 x dash of Angoustura Bitter"
+       ,
+      "price": 20,
+      "extended_description":"Add the bourbon (or rye), sweet vermouth and both bitters to a mixing glass with ice, and stir until well-chilled., strain into a chilled coupe and garnish with an brandied cherry"
+
+    },
+    {
+      "id":"8" ,
+      "name":"Old Fashioned" ,
+      "description":"Next dry drink based on whisky, this one is without vermouth often served with sugar cube" ,
+      "img":"/../assets/images/Drink-8.jpg" ,
+      "ingredients":
+        "50 ml of good bourbon, 3 x dash of Angoustura Bitter, 5 ml of sweet (Optional instead of sugar cube)"
+       ,
+      "price": 20,
+      "extended_description":"Add the sugar and bitters to a rocks glass, then add the water, and stir until the sugar is nearly dissolved, fill the glass with large ice cubes, add the bourbon, and gently stir to combine, express the oil of an orange pee lover the glass then droop in"
+
+    },
+    {
+      "id":"9" ,
+      "name":"Whisky Sour" ,
+      "description":"Typical sour based on all whisky" ,
+      "img":"/../assets/images/Drink-9.jpg" ,
+      "ingredients":
+        "40 ml of whisky, 30 ml of sour, 20 ml of sweet, 2x dash of Angoustura"
+       ,
+      "price": 14,
+      "extended_description":"Put ice and all of the ingredients into a shaker and shake hard for about 20 seconds to chill the liquid really well, strain the mix into a glass filled with ice and garnish with the cherry and orange slice"
+
+    },
+    {
+      "id":"10" ,
+      "name": "Mojito",
+      "description":"Classical drink based on white rum" ,
+      "img":"/../assets/images/Drink-11.webp" ,
+      "ingredients":
+        "40 ml of rum, Half of lime, Some mint leaves, 2 tablespoons of brown sugar, A little bit of soda water"
+      ,
+      "price": 14,
+      "extended_description":"Muddle the lime juice, sugar and mint leaves in a small jug, crushing the mint as you go – you can use the end of a rolling pin for this. Pour into a tall glass and add a handful of ice, pour over the rum, stirring with a long-handled spoon. Top up with soda water, garnish with mint and serve."
+
+    },
+    {
+      "id":"11" ,
+      "name":"Daiqiri" ,
+      "description":"The next classical drink based on white rum, some of people says that this is Rum Sour thanks to ingredients" ,
+      "img":"/../assets/images/Drink-12.jpg" ,
+      "ingredients":
+        "40 ml of white rum, 20 ml of lime juice, 10 ml of sweet"
+       ,
+      "price": 12,
+      "extended_description":"Add the rum, lime juice and sugar syrup to a shaker with ice, and shake until well-chilled, Strain into a chilled coupe, garnish with a lime twist"
+
+    },
+    {
+      "id":"12" ,
+      "name":"Tom Collins" ,
+      "description":"The next sour this time based on the gin",
+      "img":"/../assets/images/Drink-13.jpg" ,
+      "ingredients":
+        "40 ml of gin, 30 ml of sour, 20 ml of sweet, Top up of soda water"
+       ,
+      "price": 12,
+      "extended_description":"Add the gin, lemon juice and simple syrup to a Collins glass, fill with ice, top with club soda and stir, garnish with a lemon wheel and maraschino cherry "
+
+    },
+    {
+      "id":"13" ,
+      "name":"Martini" ,
+      "description":"Classic drink of James Bond, really consummate designed to real fanatics" ,
+      "img":"/../assets/images/Drink-14.png" ,
+      "ingredients":
+        "60 ml of good gin, A little bit of white dry vermouth"
+       ,
+      "price": 15,
+      "extended_description":"Stir the gin or vodka, dry vermouth and a little ice together or put them in a cocktail shaker to combine, strain into a chilled martini glass. Serve with an olive on a cocktail stick or a twist of lemon peel."
+    },
+    {
+      "id":"14" ,
+      "name":"Aperol Spritz" ,
+      "description":"Typical Italian aperitif, perfect for long sunny days" ,
+      "img":"/../assets/images/Drink-15.png" ,
+      "ingredients":
+        "80 ml of Aperol, 120 ml of Prosecco, Top up of soda water"
+       ,
+      "price": 20,
+      "extended_description":"Fill your large wine glass with plenty of ice, add 3 parts Prosecco, then 2 parts Aperol, add a dash of soda and stir briefly, garnish with an orange slice and enjoy!"
+    },
+    {
+      "id":"15" ,
+      "name":"Negroni" ,
+      "description":"The next type of dry drink, based on Campari" ,
+      "img":"/../assets/images/Drink-16.jpg" ,
+      "ingredients":
+        "40 ml of Gin, 40 ml of Campari, 40 ml of red sweet vermouth"
+       ,
+      "price": 20,
+      "extended_description":"Add the gin, Campari and sweet vermouth to a mixing glass filled with ice, and stir until well-chilled, strain into a rocks glass filled with large ice cubes, garnish with an orange peel"
+    }
+  ]
+}

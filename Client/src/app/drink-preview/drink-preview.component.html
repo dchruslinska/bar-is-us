@@ -1,0 +1,11 @@
+<mat-card class="card" matRipple (click)="openDialog()">
+  <mat-card-title>{{drink.name}}</mat-card-title>
+  <br>
+  <img mat-card-lg-image [src]="drink.img" alt="Drink image" style="align-self: center">
+  <mat-card-content>
+    <span>{{drink.description}}</span>
+    <br>
+    <mat-card-subtitle>{{drink.price}} PLN</mat-card-subtitle>
+  </mat-card-content>
+
+</mat-card>

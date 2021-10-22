@@ -1,0 +1,17 @@
+.card {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 400px;
+
+  mat-card-subtitle {
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  mat-card-content {
+    //align-self: flex-end;
+  }
+}
